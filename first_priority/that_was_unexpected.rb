@@ -5,7 +5,7 @@ class Person
     @name = name
     @candy_lover = candy_lover
   end
-
+binding.pry
   def tall?
     true
   end
@@ -26,4 +26,4 @@ class Person
         "not a ballin candy lover"
     end
   end
-end
+
